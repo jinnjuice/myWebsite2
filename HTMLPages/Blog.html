@@ -126,6 +126,75 @@
             <!--Blog Post-->
             <div class="row blog blog-medium margin-bottom-40">
                 <div class="col-md-5 blog-picture">
+                    <img class="img-responsive" src="../YeomanLogo.png" alt="">
+                </div>
+                <div class="col-md-7">
+                    <h2>How to set up a MEAN stack project</h2>
+                    <ul class="list-unstyled list-inline blog-info">
+                        <li><i class="fa fa-calendar"></i> May 20, 2014</li>
+                        <!--<li><i class="fa fa-comments"></i> <a href="#">24 Comments</a></li>-->
+                        <!--<li><i class="fa fa-tags"></i> Technology, Internet</li>-->
+                    </ul>
+                    <p>On my last post, I very briefly went over my experiences with the MEAN stack and a little
+                        bit of the why it was gaining popularity. Today I decided to take the more practical route
+                        to show how to set up a MEAN stack project from the ground up. As you will see,
+                        most of the work has been done already and all you have to do is to enter just a couple of
+                        command line prompts. The process is relatively painless and I will take you through the
+                        steps here.
+                        <br>
+                        <br>
+                        The very first step is going to be installing Node. You can do this by going to the <a
+                                href="http://nodejs.org">NodeJS</a> website and hitting install. Pretty simple, right?
+                        <br>
+                        <br>
+                        Once that's installed, the next thing you are going to do is open up your terminal and type:
+                        <br>
+                        <br>
+                        npm install -g yo
+                        <br>
+                        <br>
+                        If you get an "EACCESS" error, that just means you have to type in 'sudo' in front of npm and
+                        then type in your machine's password to gain access. Keep in mind, in the terminal, you won't
+                        see anything happen when you type your password. It threw me off in the beginning, too. You
+                        definitely are not alone. What that last command did was install a scaffolding tool called <a
+                                href="http://yeoman.io">Yeoman</a> that does all of the heavy lifting for you.
+                        <br>
+                        <br>
+                        Once that's done installing, and you will know when it's done when your command prompt comes
+                        back, you will install the scaffolding of your app by typing in the command prompt:
+                        <br>
+                        <br>
+                        npm install -g generator-meanstack
+                        <br>
+                        <br>
+                        See how simple that is? Yeoman will now install and organize all the necessary files for you
+                        and the only thing left to do is just type:
+                        <br>
+                        <br>
+                        yo meanstack
+                        <br>
+                        <br>
+                        to create your very own web app using the MEAN stack. To launch your new app in your local
+                        browser, type:
+                        <br>
+                        <br>
+                        grunt
+                        <br>
+                        <br>
+                        in to the terminal and go to localhost:3000 to check out the app! There you have it! If you
+                        followed along, this
+                        probably was the easiest thing you did all day. Now fill it in with some content and enjoy!
+                    </p>
+                    <!--<p><a class="btn-u btn-u-small" href="blog_item.html"><i class="fa fa-location-arrow"></i> Read More</a></p>-->
+                </div>
+            </div>
+            <!--End Blog Post-->
+
+            <hr class="margin-bottom-40">
+
+            <!--Blog Post-->
+            <div class="row blog blog-medium margin-bottom-40">
+                <div class="col-md-5 blog-picture">
                     <img class="img-responsive" src="../nodejslogo.png" alt="">
                 </div>
                 <div class="col-md-7">
