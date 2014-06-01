@@ -2326,12 +2326,17 @@ ul.labels-demo li {
     /*margin-bottom: 40px;*/
     color: inherit;
     /*background-color: #4e5d6c;*/
-    background-image: url('../../../GraffitiOnWood.jpg');
+    background-image: url('../../../GraffitiOnWood(crop3).jpg');
     background-size: cover;
 }
 
 .jumbotron .container {
     margin-bottom:20px;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    color: #4188d2;
 }
 
 body {
@@ -2345,14 +2350,15 @@ body {
 .jumbotron h1 {
     font-family: 'Lobster', cursive;
     color: #4188d2;
-    text-shadow: 1px 1px white, -1px -1px #444;
+    text-shadow: 2px 2px white, -2px -2px black;
 }
 
 .jumbotron p {
     color: #4188d2;
     font-style: italic;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 65px;
+    text-shadow: 1px 1px black;
 }
 
 .blockquote-reverse,
@@ -2362,13 +2368,14 @@ blockquote.pull-right {
     border-right: 5px solid #4e5d6c;
     border-left: 0;
     text-align: right;
-    font-size: 5px;
+    font-size: 9px;
     margin-bottom: 0;
 }
 
 .jumbotron blockquote p {
-    color: #f5f5f5;
+    color: #ffffff;
     margin: 0;
+    text-shadow: 0.5px 0.5px black;
 }
 
 cite {
